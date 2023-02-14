@@ -1,0 +1,24 @@
+.about {
+    .about-caption {
+        p {
+            font-size: calc(13px + (15 - 13) * ((100vw - 300px) / (1300 - 300)));
+            font-weight: 100;
+            opacity: 1;
+            color: #111;
+            letter-spacing: .6px;
+            font-family: "Open Sans", sans-serif;
+        }
+
+        .section-subtitle {
+            margin-bottom: 6px;
+            font-weight: 400;
+            opacity: .6;
+        }
+
+        .section-title {
+            font-weight: 400;
+            color: #695aa6;
+            font-size: calc(20px + (35 - 20) * ((100vw - 300px) / (1300 - 300)));
+        }
+    }
+}

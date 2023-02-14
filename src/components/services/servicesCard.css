@@ -1,0 +1,55 @@
+.services-card .card-main {
+    min-height: 230px;
+    position: relative;
+    padding: 10px;
+    overflow: hidden;
+}
+
+.services-card .card-main .border-card {
+    border: 1px solid #dee2e6;
+    width: 100%;
+    border-radius: 3px;
+}
+
+.services-card .card-main .logo {
+    margin-top: 40px;
+    width: 55px;
+    margin-bottom: 25px;
+    transition: all, 0.3s;
+}
+
+.services-card .card-main:hover {
+    align-content: space-between !important;
+}
+
+.services-card .card-main:hover .logo {
+    margin-top: 5px;
+    width: 45px;
+    margin-bottom: 15px;
+}
+
+
+.services-card .card-main .title {
+    font-size: calc(15px + (20 - 15) * ((100vw - 300px) / (1300 - 300)));
+    font-weight: 500;
+    font-family: 'Baloo Paaji', cursive;
+    color: #695aa6;
+}
+
+.services-card .card-main .subtitle {
+    font-size: calc(13px + (15 - 13) * ((100vw - 300px) / (1300 - 300)));
+    font-weight: 100;
+    color: #111;
+    letter-spacing: .6px;
+    transition: all, 0.3s;
+    position: absolute;
+    bottom: -100%;
+    visibility: hidden;
+    transition: all, 0.3s;
+    opacity: 1;
+}
+
+.services-card .card-main:hover .subtitle {
+    visibility: visible;
+    bottom: 7px;
+}
