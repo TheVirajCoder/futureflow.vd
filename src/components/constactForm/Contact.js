@@ -5,7 +5,7 @@ import ContactForm from './ContactForm';
 const Contact = () => {
   return (
     <>
-      <SectionHeader title="How can you communicate?" subtitle="Contact Me" />
+      <SectionHeader id="contact" title="How can you communicate?" subtitle="Contact Me" />
       <ContactForm />
     </>
   );

@@ -5,7 +5,7 @@ import ServicesCard from './ServicesCard';
 const Services = () => {
   return (
     <>
-      <SectionHeader title="What We Do ?" subtitle="Service" />
+      <SectionHeader id="services" title="What We Do ?" subtitle="Service" />
       <ServicesCard />
     </>
   );

@@ -2,7 +2,7 @@ import React from 'react';
 
 const Header = () => {
   return (
-    <header className="header">
+    <header id="home" className="header">
       <div className="overlay">
         <div className="header-content">
           <span className="up">Welcome to</span>

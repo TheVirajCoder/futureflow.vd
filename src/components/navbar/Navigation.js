@@ -1,8 +1,26 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 
 const Navigation = () => {
+  //navbar scroll when active state
+  const [navbar, setNavbar] = useState('bg-none');
+
+  //logo scroll function
+  const changeLogo = () => {
+    if (window.scrollY >= 60) {
+      setNavbar('bg-custom-light');
+    } else {
+      setNavbar('bg-none');
+    }
+  };
+
+  useEffect(() => {
+    changeLogo();
+    // adding the event when scroll change Logo
+    window.addEventListener('scroll', changeLogo);
+  });
+  console.log(navbar);
   return (
-    <nav className="navigation">
+    <nav className={`navigation ${navbar}`}>
       <div className="container">
         <div className="row align-items-center">
           <div className="col-lg-4 col-md-12 h-fit">
@@ -14,19 +32,19 @@ const Navigation = () => {
             <div className="navbar-div">
               <ul>
                 <li>
-                  <a href="#Home">Home</a>
+                  <a href="#home">Home</a>
                 </li>
                 <li>
-                  <a href="#Home">About</a>
+                  <a href="#about">About</a>
                 </li>
                 <li>
-                  <a href="#Home">Portfolio</a>
+                  <a href="#services">Services</a>
                 </li>
                 <li>
-                  <a href="#Home">Testmonial</a>
+                  <a href="#portfolio">Portfolio</a>
                 </li>
                 <li>
-                  <a href="#Home">Contact</a>
+                  <a href="#contact">Contact</a>
                 </li>
               </ul>
             </div>

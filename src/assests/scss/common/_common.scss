@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0px;
     padding: 0px;
     font-family: 'Baloo Paaji', cursive;
@@ -6,4 +6,17 @@
 
 .h-fit {
     height: fit-content;
+}
+
+.bg-none a {
+    background: none;
+    color: white;
+}
+
+.bg-custom-light {
+    background-color: white;
+}
+
+.bg-custom-light a {
+    color: #695aa6;
 }
