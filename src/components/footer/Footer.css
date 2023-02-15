@@ -1,0 +1,23 @@
+.footer-main {
+    min-height: 70px;
+    border-top: 1px solid #dee2e6;
+    align-items: center;
+}
+
+.footer-main .logo:hover {
+    background: #695aa6;
+    border-color: #695aa6;
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-main .logo {
+    padding: 0;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    line-height: 40px;
+    text-align: center;
+    border: 2px solid #6c757d;
+    color: #6c757d;
+}

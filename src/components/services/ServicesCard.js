@@ -32,7 +32,7 @@ const ServicesCard = () => {
   ];
 
   return (
-    <section className="services-card">
+    <section className="services-card mb-5">
       <div className="container">
         <div className="row">
           {data.map((item) => {
