@@ -5,7 +5,7 @@ import PorftfolioCard from './PorftfolioCard';
 const Portfolio = () => {
   return (
     <>
-      <SectionHeader id="portfolio" title="What I Did ?" subtitle="Portfolio" />
+      <SectionHeader id="portfolio" title="What We Did ?" subtitle="Portfolio" />
       <PorftfolioCard />
     </>
   );

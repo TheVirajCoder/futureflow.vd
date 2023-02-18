@@ -7,7 +7,9 @@ const Header = () => {
         <div className="header-content">
           <span className="up">Welcome to</span>
           <span className="down">FutureFlow.</span>
-          <button className="header-btn">Visit My Works</button>
+          <a className="header-btn" href="#portfolio">
+            Visit Our Works
+          </a>
         </div>
       </div>
     </header>

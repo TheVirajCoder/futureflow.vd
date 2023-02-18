@@ -10,7 +10,7 @@ const PorftfolioCard = () => {
     { title: 'Web Designing', subtitle: 'Category: Web Templates' }
   ];
   return (
-    <section className="portfolioCard">
+    <section className="portfolioCard pb-5">
       <div className="container">
         <div className="d-flex flex-wrap">
           {cardData.map((item) => {

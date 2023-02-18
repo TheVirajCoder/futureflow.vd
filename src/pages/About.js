@@ -2,7 +2,7 @@ import React from 'react';
 
 const About = () => {
   return (
-    <section id="about" className="about my-5">
+    <section id="about" className="about mb-5" style={{ paddingTop: '100px' }}>
       <div className="container">
         <div className="row justify-content-center">
           <div className="col-lg-8 col-md-10 col-sm-12">

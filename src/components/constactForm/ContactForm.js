@@ -7,6 +7,7 @@ const ContactForm = () => {
   const {
     register,
     handleSubmit,
+    reset,
     formState: { errors }
   } = useForm();
   return (
@@ -20,6 +21,17 @@ const ContactForm = () => {
                   'https://futureflow-d9448-default-rtdb.asia-southeast1.firebasedatabase.app/messages.json',
                   {
                     data
+                  }
+                );
+                reset(
+                  {
+                    name: '',
+                    email: '',
+                    message: ''
+                  },
+                  {
+                    keepErrors: true,
+                    keepDirty: true
                   }
                 );
               })}>

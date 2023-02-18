@@ -5,7 +5,7 @@ import './SectionHeader.css';
 
 const SectionHeader = ({ id, title, subtitle }) => {
   return (
-    <section id={id} className="my-5">
+    <section id={id} className="mb-5" style={{ paddingTop: '100px' }}>
       <div className="container">
         <div className="row">
           <div className="col-lg-12">
